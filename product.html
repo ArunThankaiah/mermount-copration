@@ -11,33 +11,11 @@
     <title>Mermount Corporation</title>
     <meta name="author" content="Themezinho" />
     <meta
-      name="description" 
-    />
-    <meta
       name="keywords"
       content="creative, works, showcase, portfolio, highlight, projects, modern, tourog, digital, studio, css, animation, transition, freelancers"
     />
 
     <!-- FAVICON FILES -->
-    <!-- <link
-      href="ico/apple-touch-icon-144-precomposed.png"
-      rel="apple-touch-icon"
-      sizes="144x144"
-    />
-    <link
-      href="ico/apple-touch-icon-114-precomposed.png"
-      rel="apple-touch-icon"
-      sizes="114x114"
-    />
-    <link
-      href="ico/apple-touch-icon-72-precomposed.png"
-      rel="apple-touch-icon"
-      sizes="72x72"
-    />
-    <link
-      href="ico/apple-touch-icon-57-precomposed.png"
-      rel="apple-touch-icon"
-    /> -->
     <link href="ico/favicon.png" rel="shortcut icon" />
 
     <!-- CSS FILES -->
@@ -46,33 +24,29 @@
     <link rel="stylesheet" href="css/hamburger.min.css" />
     <link rel="stylesheet" href="css/odometer.min.css" />
     <link rel="stylesheet" href="css/swiper.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- <div class="preloader">
-      <div class="layer"></div>
-     
-      <div class="inner">
-        <figure><img src="images/preloader.gif" alt="Image" /></figure>
-        <span>Site Loading</span>
-      </div>
-      
-    </div> -->
-    <!-- end preloader -->
-    <div class="page-transition">
-      <div class="layer"></div>
-      <!-- end layer -->
-    </div>
-    <!-- end page-transition -->
     <nav class="site-navigation">
       <div class="layer"></div>
       <!-- end layer -->
       <div class="inner">
         <ul data-splitting>
-          <li><a href="index.html">HOME</a></li>
+          <li>
+            <a href="index.html">HOME</a><i class="fas fa-caret-down"></i>
+          </li>
           <li><a href="about.html">ABOUT</a></li>
-          <li><a href="product.html">PRODUCTS</a></li>
+          <li>
+            <a href="product.html">SHOWCASES</a>
+          </li>
+          <li><a href="blog.html">BLOG</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </div>
@@ -83,8 +57,8 @@
       <aside class="left-side">
         <div class="logo">
           <a href="index.html"
-            ><img src="./images/nav-logo/nav-logo.png" alt="Image"
-          /></a>  
+            ><img src="images/nav-logo/nav-logo.png" alt="Image"
+          /></a>
         </div>
         <!-- end logo -->
         <div class="hamburger" id="hamburger">
@@ -105,96 +79,89 @@
           </div>
         </div>
         <!-- end hamburger -->
-        <!-- <div class="follow-us">FOLLOW US</div> -->
-        <!-- end follow-us -->
-        <!-- <div class="equalizer">
-          <span></span> <span></span> <span></span> <span></span>
-        </div> -->
-        <!-- end equalizer -->
       </aside>
       <!-- end left-side -->
 
-      <header class="slider">
-        <div class="swiper-container gallery-top">
+      <header class="carousel-hero">
+        <div class="carousel-slider">
           <div class="swiper-wrapper">
-            <div
-              class="swiper-slide"
-              data-background="./images/display/02hero.jpg"
-            ></div>
-            <div class="swiper-slide">
-              <div
-                class="swiper-slide"
-                data-background="./images/display/sink.jpg"
-              ></div>
+            <div class="swiper-slide" data-background="images/works07.jpg">
+              <div class="inner">
+                <h2>DISCOVER</h2>
+                <a href="#">DISCOVER CASE</a>
+              </div>
+              <!-- end inner -->
             </div>
-            <div
-              class="swiper-slide"
-              data-background="./images/display/img01-d.jpg"
-            ></div>
+            <!-- end swiper-slide -->
+            <div class="swiper-slide" data-background="images/works08.jpg">
+              <div class="inner">
+                <h2>EXCLUSION</h2>
+                <a href="#">DISCOVER CASE</a>
+              </div>
+              <!-- end inner -->
+            </div>
+            <!-- end swiper-slide -->
+            <div class="swiper-slide" data-background="images/works09.jpg">
+              <div class="inner">
+                <h2>EDITIONAL</h2>
+                <a href="#">DISCOVER CASE</a>
+              </div>
+              <!-- end inner -->
+            </div>
+            <!-- end swiper-slide -->
+            <div class="swiper-slide" data-background="images/works06.jpg">
+              <div class="inner">
+                <h2>AVAILABLE</h2>
+                <a href="#">DISCOVER CASE</a>
+              </div>
+              <!-- end inner -->
+            </div>
+            <!-- end swiper-slide -->
+            <div class="swiper-slide" data-background="images/works05.jpg">
+              <div class="inner">
+                <h2>PREMIUM</h2>
+                <a href="#">DISCOVER CASE</a>
+              </div>
+              <!-- end inner -->
+            </div>
+            <!-- end swiper-slide -->
           </div>
           <!-- end swiper-wrapper -->
           <div class="slide-progress">
             <span>01</span>
             <div class="swiper-pagination"></div>
-            <span>03</span>
+            <span>05</span>
           </div>
           <!-- end slide-progress -->
           <div class="swiper-button-prev">PREV</div>
           <!-- end button-prev -->
           <div class="swiper-button-next">NEXT</div>
-          <!-- end buttin-next -->
+          <!-- end button-next -->
         </div>
-        <!-- end gallery-top -->
-        <div class="swiper-container gallery-thumbs">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <span>Elevate Your Space with Mermount</span>
-              <a href="#" class="slide-caption">
-                Quality Sanitaryware, Faucets, and More!</a
-              >
-            </div>
-            <div class="swiper-slide">
-              <span>Building Strong Bonds</span>
-              <a href="#" class="slide-caption">
-                Transparent Service and Exceptional After Sales Support</a
-              >
-            </div>
-            <div class="swiper-slide">
-              <span>Your Satisfaction, Our Priority</span>
-              <a href="#" class="slide-caption"></a>
-                Discover Excellence in Products and Service</a
-              >
-            </div>
-          </div>
-          <!-- end swiper-wrapper -->
-        </div>
-        <!-- end gallery-thumbs -->
+        <!-- end carousel-slider -->
       </header>
-      <!-- end slider -->
+      <!-- end carousel-hero -->
       <section class="intro">
         <div class="container">
           <div class="row">
             <div class="col-lg-5 wow" data-splitting>
               <h3 class="section-title">
-                ABOUT <br />
-                MERMOUNT CORPORATION
+                HOW WE MAKE <br />
+                USER EXPERIENCES
               </h3>
-              <!-- <a href="#">INFO</a> -->
+              <a href="#">hello@tourog.com</a>
             </div>
             <!-- end col-5 -->
             <div class="col-lg-7 wow" data-splitting>
               <p>
-                At Mermount Corporation, we are more than just a provider of
-                home improvement products - we are your partners in creating
-                spaces that inspire and delight. With a passion for quality and
-                a commitment to customer satisfaction, we strive to be your
-                go-to destination for all your sanitaryware, faucet, kitchen
-                sink, and bathroom accessory needs.
+                You can't use up creativity. The more you use, the more you have
+                in your signifant mind.
               </p>
-              <b>07</b>
+              <h6>Salvador Dali</h6>
+              <small>Digital Artisit</small> <b>25</b>
               <h4>
                 YEARS OF<br />
-                EXPERIENCE
+                DIGITAL EXPERIENCE
               </h4>
             </div>
             <!-- end col-7 -->
@@ -203,11 +170,11 @@
         </div>
         <!-- end container -->
       </section>
-      <!-- end intro -->
+      <!-- Product and details -->
       <section class="intro-image">
         <div class="container">
-          <div class="row">
-            <div class="col-12">
+          <div class="row aligh-itmes-center justify-content-center p- mb-2">
+            <div class="col-lg-6 col-md-6 p-3">
               <div class="office-slider">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
@@ -216,9 +183,6 @@
                         src="images/product-img/Sanitaryware (1).jpg"
                         alt="Image"
                       />
-                      <figcaption>
-                        <h6>Sanitaryware</h6>
-                      </figcaption>
                     </figure>
                   </div>
                   <!-- end swiper-slide -->
@@ -228,9 +192,6 @@
                         src="images/product-img/Kitchen_Sink.jpg"
                         alt="Image"
                       />
-                      <figcaption>
-                        <h6>Kitchen Sink</h6>
-                      </figcaption>
                     </figure>
                   </div>
                   <!-- end swiper-slide -->
@@ -240,9 +201,6 @@
                         src="./images/product-img/VanityBoxes.jpg"
                         alt="Image"
                       />
-                      <figcaption>
-                        <h6>Vanity Boxes</h6>
-                      </figcaption>
                     </figure>
                   </div>
                   <!-- end swiper-slide -->
@@ -252,9 +210,6 @@
                         src="./images/product-img/bathroom.jpg"
                         alt="Image"
                       />
-                      <figcaption>
-                        <h6>Bathroom Accessories</h6>
-                      </figcaption>
                     </figure>
                   </div>
                   <!-- end swiper-slide -->
@@ -263,190 +218,56 @@
                 <div class="swiper-pagination"></div>
                 <!-- end swiper-pagination -->
               </div>
+              <div class="mt-3">
+                <h5 class="text-light">FAUCETS</h5>
+                <small class="mt-4 text-secondary"
+                  >Transform your kitchen or bathroom with our exquisite
+                  collection of faucets. Crafted with precision and style, our
+                  faucets not only add functionality but also enhance the
+                  aesthetics of your space. From sleek modern designs to
+                  timeless classics, find the perfect faucet to suit your taste
+                  and needs.</small
+                >
+              </div>
               <!-- end office-slider -->
             </div>
-            <!-- end col-12 -->
-          </div>
-          <!-- end row -->
-        </div>
-        <!-- end container -->
-      </section>
-      <!-- end intro-image -->
-
-      <!-- end intro-image -->
-      <section class="icon-content-block">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12 wow" data-splitting>
-              <h3 class="section-title">
-                Why Choose<br />
-                Mermount Corporation?
-              </h3>
-            </div>
-            <!-- end col-12 -->
-            <div class="col-lg-3 col-md-4 wow" data-splitting>
-              <div class="content-block">
-                <figure>
-                  <img src="images/icon-why-choose/medal.png" alt="Image" />
-                </figure>
-                <h6>QUALITY ASSURANCE</h6>
-                <ul>
-                  <li>
-                    We guarantee the highest standards of quality in all our
-                    products
-                  </li>
-                </ul>
-              </div>
-              <!-- end content-block -->
-            </div>
-            <!-- end col-3 -->
-            <div class="col-lg-3 col-md-4 wow" data-splitting>
-              <div class="content-block selected">
-                <figure>
-                  <img src="images/icon-why-choose/trust.png" alt="Image" />
-                </figure>
-                <h6>TRANSPARENT SERVICE</h6>
-                <ul>
-                  <li>
-                    Our service pattern is transparent, fostering strong bonds
-                    with our customers.
-                  </li>
-                </ul>
-              </div>
-              <!-- end content-block -->
-            </div>
-            <!-- end col-3 -->
-            <div class="col-lg-3 col-md-4 wow" data-splitting>
-              <div class="content-block">
-                <figure>
-                  <img
-                    src="images/icon-why-choose/customer-satisfaction.png"
-                    alt="Image"
-                  />
-                </figure>
-                <h6>CUSTOMER SATISFACTION GUARANTEeD</h6>
-                <ul>
-                  <li>
-                    Your satisfaction is our priority, and we strive to exceed
-                    your expectations every time.
-                  </li>
-                </ul>
-              </div>
-              <!-- end content-block -->
-            </div>
-            <!-- end col-3 -->
-          </div>
-          <!-- end row -->
-        </div>
-        <!-- end container -->
-      </section>
-      <!-- end icon-content-block -->
-      <section class="works">
-        <ul>
-          <li>
-            <figure class="reveal-effect masker wow">
-              <a href="./images/products/img01.jpg" data-fancybox
-                ><img src="./images/products/img01.jpg" alt="Image"
-              /></a>
-            </figure>
-            <div class="caption wow" data-splitting>
-              <h3>KITCHEN SINK</h3>
-              <small>A clean sink will make your kitchen look more inviting.</small>
-            </div>
-          </li>
-          <li>
-            <figure class="reveal-effect masker wow">
-              <a href="./images/products/img02.jpg" data-fancybox
-                ><img src="./images/products/img02.jpg" alt="Image"
-              /></a>
-            </figure>
-            <div class="caption wow" data-splitting>
-              <h3>FAUCETS</h3>
-              <small>Faucets are available in a variety of styles and finishes, so you can find one that matches your decor</small>
-            </div>
-          </li>
-          <li>
-            <figure class="reveal-effect masker wow">
-              <a href="./images/products/img03.jpg" data-fancybox
-                ><img src="./images/products/img03.jpg" alt="Image"
-              /></a>
-            </figure>
-            <div class="caption wow" data-splitting>
-              <h3>SANITARYWARE</h3>
-              <small>Sanitaryware is available in a wide range of styles, materials, and finishes.</small>
-            </div>
-          </li>
-          <li>
-            <figure class="reveal-effect masker wow">
-              <a href="./images/products/img04.jpg" data-fancybox
-                ><img src="./images/products/img04.jpg" alt="Image"
-              /></a>
-            </figure>
-            <div class="caption wow" data-splitting>
-              <h3>Vanity Boxes</h3>
-              <small>Vanity boxes come in a variety of styles and finishes, so you can choose ones that match the décor of your home. This will help to create a cohesive and stylish look.</small>
-            </div>
-          </li>
-          <li>
-            <figure class="reveal-effect masker wow">
-              <a href="./images/products/img05.jpg" data-fancybox
-                ><img src="./images/products/img05.jpg" alt="Image"
-              /></a>
-            </figure>
-            <div class="caption wow" data-splitting>
-              <h3>BATHROOM ACCESSORIES</h3>
-              <small>You want to choose accessories that will complement the overall look of your bathroom</small>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <!-- Testimonial -->
-      <section class="testimonials">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="testimonials-slider">
+            <div class="col-lg-6 col-md-6 p-3">
+              <div class="office-slider">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="testimonial wow" data-splitting>
-                      <blockquote> Great collections and very good after sales services.Staffs were very cooperative.</blockquote>
-                      <div class="reviewer"> <img src="images/team01.jpg" alt="Image">
-                        <div class="reviewer-infos">
-                          <h6>Fatima Hakeem</h6>
-                          <small>*****</small> </div>
-                        <!-- end reviewer-infos -->
-                      </div>
-                      <!-- end reviewers -->
-                    </div>
-                    <!-- end testimonial -->
+                    <figure class="reveal-effect masker wow">
+                      <img
+                        src="images/product-img/Sanitaryware (1).jpg"
+                        alt="Image"
+                      />
+                    </figure>
                   </div>
                   <!-- end swiper-slide -->
                   <div class="swiper-slide">
-                    <div class="testimonial">
-                      <blockquote> Wide variety of choices with great customer service. </blockquote>
-                      <div class="reviewer"> <img src="images/team01.jpg" alt="Image">
-                        <div class="reviewer-infos">
-                          <h6>Ayesha Sana</h6>
-                          <small>*****</small> </div>
-                        <!-- end reviewer-infos -->
-                      </div>
-                      <!-- end reviewers -->
-                    </div>
-                    <!-- end testimonial -->
+                    <figure>
+                      <img
+                        src="images/product-img/Kitchen_Sink.jpg"
+                        alt="Image"
+                      />
+                    </figure>
                   </div>
                   <!-- end swiper-slide -->
                   <div class="swiper-slide">
-                    <div class="testimonial">
-                      <blockquote> Wide variety of choices with great customer service. </blockquote>
-                      <div class="reviewer"> <img src="images/team01.jpg" alt="Image">
-                        <div class="reviewer-infos">
-                          <h6>Marcus James</h6>
-                          <small>*****</small> </div>
-                        <!-- end reviewer-infos -->
-                      </div>
-                      <!-- end reviewers -->
-                    </div>
-                    <!-- end testimonial -->
+                    <figure>
+                      <img
+                        src="./images/product-img/VanityBoxes.jpg"
+                        alt="Image"
+                      />
+                    </figure>
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure>
+                      <img
+                        src="./images/product-img/bathroom.jpg"
+                        alt="Image"
+                      />
+                    </figure>
                   </div>
                   <!-- end swiper-slide -->
                 </div>
@@ -454,22 +275,140 @@
                 <div class="swiper-pagination"></div>
                 <!-- end swiper-pagination -->
               </div>
-              <!-- end testimonials-slider -->
+              <div class="mt-3">
+                <h5 class="text-light">SANITARYWARE</h5>
+                <small class="mt-4 text-secondary"
+                  >Elevate your bathroom experience with our range of
+                  high-quality sanitaryware. Designed for both comfort and
+                  durability, our sanitaryware products combine elegance with
+                  functionality. Choose from a variety of designs and sizes to
+                  create your ideal bathroom oasis</small
+                >
+              </div>
+              <!-- end office-slider -->
             </div>
-            <!-- end col-6 -->
-            <div class="col-lg-6 wow" data-splitting>
-              <h3 class="section-title">STUDIO PROUD<br>
-                IS QUALITY OF<br>
-                PARTNERS</h3>
-              <a href="#"></a> </div>
-            <!-- end col-6 -->
+            <div class="col-lg-6 col-md-6 p-3">
+              <div class="office-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect masker wow">
+                      <img
+                        src="images/product-img/Sanitaryware (1).jpg"
+                        alt="Image"
+                      />
+                    </figure>
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure>
+                      <img
+                        src="images/product-img/Kitchen_Sink.jpg"
+                        alt="Image"
+                      />
+                    </figure>
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure>
+                      <img
+                        src="./images/product-img/VanityBoxes.jpg"
+                        alt="Image"
+                      />
+                    </figure>
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure>
+                      <img
+                        src="./images/product-img/bathroom.jpg"
+                        alt="Image"
+                      />
+                    </figure>
+                  </div>
+                  <!-- end swiper-slide -->
+                </div>
+                <!-- end swiper-wrapper -->
+                <div class="swiper-pagination"></div>
+                <!-- end swiper-pagination -->
+              </div>
+              <div class="mt-3">
+                <h5 class="text-light">KITCHEN SINK</h5>
+                <small class="mt-4 text-secondary"
+                  >Make a statement in your kitchen with our premium kitchen
+                  sinks. Whether you prefer stainless steel, granite, or
+                  ceramic, our sinks are built to withstand the demands of
+                  everyday use while adding a touch of sophistication to your
+                  kitchen decor. Explore our range of styles and sizes to find
+                  the perfect fit for your home</small
+                >
+              </div>
+              <!-- end office-slider -->
+            </div>
+            <div class="col-lg-6 col-md-6 p-3">
+              <div class="office-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect masker wow">
+                      <img
+                        src="images/product-img/Sanitaryware (1).jpg"
+                        alt="Image"
+                      />
+                    </figure>
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure>
+                      <img
+                        src="images/product-img/Kitchen_Sink.jpg"
+                        alt="Image"
+                      />
+                    </figure>
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure>
+                      <img
+                        src="./images/product-img/VanityBoxes.jpg"
+                        alt="Image"
+                      />
+                    </figure>
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure>
+                      <img
+                        src="./images/product-img/bathroom.jpg"
+                        alt="Image"
+                      />
+                    </figure>
+                  </div>
+                  <!-- end swiper-slide -->
+                </div>
+                <!-- end swiper-wrapper -->
+                <div class="swiper-pagination"></div>
+                <!-- end swiper-pagination -->
+              </div>
+              <div class="mt-3">
+                <h5 class="text-light">VANITY BOXES & BATHROOM ACCESSORIES</h5>
+                <small class="mt-4 text-secondary"
+                  >Complete your bathroom ensemble with our stylish vanity boxes
+                  and bathroom accessories. From storage solutions to decorative
+                  accents, our vanity boxes and accessories are designed to
+                  enhance both the look and functionality of your bathroom
+                  space. Organize your essentials in style and add the finishing
+                  touches that make your bathroom uniquely yours.</small
+                >
+              </div>
+              <!-- end office-slider -->
+            </div>
+
+            <!-- end col-12 -->
           </div>
           <!-- end row -->
         </div>
         <!-- end container -->
       </section>
-
-      <!-- end works -->
+      <!-- CONTACT -->
       <section class="contact">
         <div class="container">
           <div class="row">
@@ -595,7 +534,6 @@
         </div>
         <!-- end container -->
       </section>
-      <!-- end clients -->
     </main>
     <!-- end main -->
     <footer class="footer">
@@ -619,12 +557,12 @@
                 <a href="#"><i class="fab fa-youtube"></i></a>
               </li>
             </ul>
-            <h6>Make your bathroom a spa-like oasis with our luxurious bath ware products</h6>
+            <h6>LET’S HAVE A TALK ABOUT YOUR PROJECT.</h6>
             <h2>
               Need more information or want <br />
               to get in touch?
             </h2>
-            <a href="contact.html" class="link">Get in touch</a>
+            <a href="#" class="link">Get in touch</a>
           </div>
           <!-- end col-12 -->
           <div class="col-12">
@@ -645,6 +583,11 @@
     <!-- end footer -->
 
     <!-- JS FILES -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swiper.min.js"></script>
