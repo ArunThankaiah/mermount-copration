@@ -324,73 +324,6 @@ textarea {
   border: 2px solid #fff;
   background: none;
 }
-
-/* PRELOADER */
-.preloader {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 11;
-  background: #75dab4;
-  text-align: center;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  transition-duration: 500ms;
-  -webkit-transition-duration: 500ms;
-  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  overflow: hidden;
-  transition-delay: 0.6s;
-}
-.preloader * {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  transition-duration: 500ms;
-  -webkit-transition-duration: 500ms;
-  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-}
-.preloader .layer {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: #1c1c1c;
-  transition-delay: 0.3s;
-}
-.preloader .inner {
-  display: inline-block;
-  text-align: center;
-  position: relative;
-  z-index: 2;
-  margin: 0 auto;
-}
-.preloader .inner span {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 13px;
-}
-.preloader .inner figure {
-  display: block;
-  margin-bottom: 20px;
-  transition-delay: 0.1s;
-}
-.preloader .inner figure img {
-  height: 40px;
-  transform: translateX(-7px);
-}
-
-/* PAGE LOADED */
 .page-loaded .preloader {
   left: -100%;
 }
@@ -426,7 +359,7 @@ textarea {
 
 .page-loaded .all-cases-link {
   right: 30px;
-}
+} */
 
 /* PAGE TRANSTION */
 .page-transition {
@@ -1392,7 +1325,12 @@ textarea {
   background: #161619;
   position: relative;
 }
-
+#testimonial-h3{
+  font-size: 18px !important;
+  font-family: "Poppins", sans-serif ;
+  font: bold;
+  line-height: 2rem;
+}
 .testimonials:before {
   content: "";
   width: 100%;
