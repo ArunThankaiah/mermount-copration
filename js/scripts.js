@@ -293,6 +293,7 @@
   new Swiper('.office-slider', {
     slidesPerView: '1',
     spaceBetween: 0,
+    autoplay:true,
     centeredSlides: true,
     loop: true,
     pagination: {
