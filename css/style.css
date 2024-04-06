@@ -532,6 +532,7 @@ textarea {
 }
 .left-side .logo img {
   width: 144px;
+  padding: 5px;
  
 }
 .left-side .hamburger {
@@ -554,7 +555,7 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   /* transform: scale(1.2); */
   /* filter: blur(15px); */
-  transition-delay: 0.4s;
+  transition-delay: 0.1s;
 }
 .slider .swiper-container {
   width: 100%;
@@ -844,7 +845,7 @@ textarea {
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   transform: scale(1.2);
-  filter: blur(20px);
+  /* filter: blur(20px); */
   transition-delay: 0.8s;
 }
 .page-header .video-bg {
@@ -891,7 +892,7 @@ textarea {
   flex-wrap: wrap;
   padding: 150px 0;
   color: #fff;
-  background: #161619;
+  background: #222327;
 }
 .intro .col-lg-7 {
   padding-left: 10%;
@@ -953,7 +954,7 @@ textarea {
   content: "";
   width: 100%;
   height: 100px;
-  background: #161619;
+  background: #222327;
   position: absolute;
   left: 0;
   top: 0;
@@ -1090,7 +1091,7 @@ textarea {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 150px 0;
+  padding-top: 150px;
   background: #fff;
 }
 .text-content-block .col-md-4 {
@@ -1168,13 +1169,13 @@ textarea {
   
 }
 .testimonials .swiper-pagination-bullet {
-  background: black;
+  background: gray;
 }
 .testimonials .swiper-pagination-bullet:hover {
-  border-color: white;
+  border-color: #161619;
 }
 .testimonials .swiper-pagination-bullet-active {
-  border-color: white;
+  border-color: #161619;
   background: none;
   
 }
@@ -1183,8 +1184,8 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   padding: 100px 80px;
-  background: gray;
-  color: white;
+  background: white;
+  color: #161619;
   
   
 }
@@ -1223,60 +1224,45 @@ textarea {
 /* TEAM */
 .team {
   width: 100%;
+  margin-bottom: 10%;
   display: flex;
   flex-wrap: wrap;
   padding-top: 150px;
   padding-bottom: 100px;
   color: #fff;
-  background: #161619;
+  background: #222327;
   position: relative;
   z-index: 2;
+  align-items: center;
+  justify-content: center;
+  
 }
-.team:before {
-  content: "";
-  width: 100%;
-  height: 100px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background: #fff;
-}
-.team .reveal-effect.masker:after {
-  background: #222327;
-}
-.team h5 {
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.5;
-}
+
 .team figure {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   position: relative;
   margin-bottom: -100px;
+  border: 2px solid #fff;
+  margin-bottom: 10px;
+  cursor: pointer;
+ 
 }
-.team figure:hover ul {
-  opacity: 1;
-  visibility: visible;
+.team figure:hover{
+  background: #161619;
 }
-.team figure img {
-  width: 100%;
+#row-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
-.team figure figcaption {
-  display: block;
-  color: #222327;
-  margin-top: 20px;
+.client01{
+  padding: 100px;
 }
-.team figure figcaption h6 {
-  display: block;
-  font-weight: 600;
-}
-.team figure figcaption small {
-  display: block;
-  opacity: 0.5;
-}
-.team figure ul {
+
+/* .team figure ul {
   width: 80%;
   display: flex;
   margin: 10%;
@@ -1312,7 +1298,7 @@ textarea {
 }
 .team figure ul li a:hover {
   color: #75dab4;
-}
+} */
 
 /* WORKS */
 .works {
@@ -1322,6 +1308,8 @@ textarea {
   padding: 150px 0;
   background: #222327;
   color: #fff;
+  
+
 }
 .works ul {
   width: 100%;
@@ -1453,9 +1441,11 @@ textarea {
   flex-wrap: wrap;
   padding: 100px 0;
   background: #fff;
+  
+  
 }
-.blog .col-lg-9 {
-  padding-right: 60px;
+.blog .col-lg-12 {
+  padding-left: 60px;
 }
 .blog .sidebar {
   width: 100%;
@@ -1488,9 +1478,11 @@ textarea {
   padding-right: 60px;
   padding-left: 0;
   text-align: right;
+  justify-content: right;
+  align-items: start;
 }
 .blog .post .post-image {
-  width: 45%;
+  width: 30%;
   margin: 0;
   position: relative;
   box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
@@ -1526,7 +1518,7 @@ textarea {
 }
 
 .blog .post .post-content .image-left {
-  width: 40%;
+  width: 50%;
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
