@@ -600,7 +600,11 @@ textarea {
   float: left;
   color: #fff !important;
   font: bold !important;
-  font-weight: 900 !important;
+  font-weight: 600 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   
 }
 .slider .gallery-thumbs .swiper-slide a {
