@@ -1158,22 +1158,11 @@ textarea {
   position: relative;
 }
 .testimonials .swiper-pagination {
-  width: 100%;
-  /* right: 80px; */
-  /* left: auto; */
-  margin-bottom: -15%;
+  width: 100px;
+  right: 80px;
+  left: auto;
   bottom: 115px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.text-secondary{
-  font-size: 18px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  
-
+  text-align: right;
 }
 .testimonials .swiper-pagination-bullet {
   background: #222327;
@@ -1192,6 +1181,16 @@ textarea {
   padding: 100px 80px;
   background: #fff;
   color: #222327;
+}
+.text-secondary{
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
 }
 .testimonials .testimonial blockquote {
   font-size: 21px;
@@ -1224,6 +1223,7 @@ textarea {
 .testimonials .testimonial .reviewer small {
   display: block;
 }
+
 
 /* TEAM */
 .team {
