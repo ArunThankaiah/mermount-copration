@@ -592,7 +592,7 @@ textarea {
   height: 100%;
   opacity: 0;
   text-align: center;
-  filter: blur(3px);
+  /* filter: blur(3px); */
 }
 .slider .gallery-thumbs .swiper-slide span {
  /* margin-left: 35%; */
@@ -1134,15 +1134,9 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   margin-top: 150px;
+  color: #fff;
   background: #161619;
   position: relative;
-  
-}
-#testimonial-h3{
-  font-size: 18px !important;
-  font-family: "Poppins", sans-serif ;
-  font: bold !important;
-  line-height: 2rem;
 }
 .testimonials:before {
   content: "";
@@ -1162,36 +1156,42 @@ textarea {
   flex-wrap: wrap;
   overflow: hidden;
   position: relative;
-  
 }
 .testimonials .swiper-pagination {
-  width: 100px;
-  right: 80px;
-  left: auto;
+  width: 100%;
+  /* right: 80px; */
+  /* left: auto; */
+  margin-bottom: -15%;
   bottom: 115px;
-  text-align: right;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.text-secondary{
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
   
+
 }
 .testimonials .swiper-pagination-bullet {
-  background: gray;
+  background: #222327;
 }
 .testimonials .swiper-pagination-bullet:hover {
-  border-color: #161619;
+  border-color: #222327;
 }
 .testimonials .swiper-pagination-bullet-active {
-  border-color: #161619;
+  border-color: #222327;
   background: none;
-  
 }
 .testimonials .testimonial {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding: 100px 80px;
-  background: white;
-  color: #161619;
-  
-  
+  background: #fff;
+  color: #222327;
 }
 .testimonials .testimonial blockquote {
   font-size: 21px;
@@ -1911,6 +1911,7 @@ html[dir=rtl] .testimonials .swiper-pagination {
   left: 0;
   right: auto;
   text-align: left;
+  
 }
 html[dir=rtl] .pagination {
   padding: 0;
