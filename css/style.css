@@ -1266,43 +1266,6 @@ textarea {
   padding: 100px;
 }
 
-/* .team figure ul {
-  width: 80%;
-  display: flex;
-  margin: 10%;
-  padding: 0;
-  background: #fff;
-  position: absolute;
-  left: 0;
-  bottom: 60px;
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -ms-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-.team figure ul li {
-  flex: 1;
-  margin: 0;
-  padding: 10px 0;
-  list-style: none;
-  text-align: center;
-  border-right: 1px solid #eee;
-}
-.team figure ul li:last-child {
-  border-right: 0;
-}
-.team figure ul li a {
-  color: #222327;
-  font-size: 13px;
-  padding: 5px;
-}
-.team figure ul li a:hover {
-  color: #75dab4;
-} */
 
 /* WORKS */
 .works {
